@@ -38,8 +38,13 @@
     linear-gradient(168deg, rgba(26, 11, 46, 0.95) 0%, rgba(13, 5, 24, 0.95) 45%, rgba(2, 1, 3, 0.95) 100%) center center/cover no-repeat fixed;
 }
 
-/* Sonarr v4: details chips — literal color beats stale cache on --label-text-color; keep in sync with :root */
-[class*="SeriesDetails-detailsLabel-"],
+/* Sonarr v4 hero row: app forces transparent bg; restore fill + accent border (border was tracking currentColor + dark text) */
+[class*="SeriesDetails-detailsLabel-"] {
+  background-color: rgb(var(--accent-color)) !important;
+  border-color: rgb(var(--accent-color)) !important;
+  color: #0a0614 !important;
+}
+
 [class*="SeriesDetails-detailsLabel-"] [class*="SeriesDetails-path-"] {
   color: #0a0614 !important;
 }
