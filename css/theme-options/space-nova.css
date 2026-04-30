@@ -17,7 +17,7 @@
   --button-text: #f0e7ff;
   --button-text-hover: #ffffff;
 
-  --accent-color: 20, 150, 168;
+  --accent-color: 58, 222, 237;
   --accent-color-hover: rgba(0, 245, 255, 0.55);
   --link-color: #22d3ee;
   --link-color-hover: #f472b6;
@@ -41,10 +41,10 @@
 /* Sonarr v4 hero row: app forces transparent bg; restore fill + accent border (border was tracking currentColor + dark text) */
 [class*="SeriesDetails-detailsLabel-"] {
   background-color: rgb(20, 6, 45) !important;
-  border-color: rgb(var(--accent-color)) !important;
+  border-color: rgb(20, 6, 45) !important;
   color: #c806a5 !important;
 }
 
 [class*="SeriesDetails-detailsLabel-"] [class*="SeriesDetails-path-"] {
-  color: #0a0614 !important;
+  color: #c806a5 !important;
 }
