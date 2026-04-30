@@ -48,3 +48,9 @@
 [class*="SeriesDetails-detailsLabel-"] [class*="SeriesDetails-path-"] {
   color: #22d3ee !important;
 }
+
+/* Links tooltip chips: label text ignores <a>:hover; recolor only these anchors’ inner label */
+[class*="SeriesDetailsLinks-link-"]:hover [class*="SeriesDetailsLinks-linkLabel-"],
+[class*="SeriesDetailsLinks-link-"]:focus-visible [class*="SeriesDetailsLinks-linkLabel-"] {
+  color: var(--link-color-hover);
+}
