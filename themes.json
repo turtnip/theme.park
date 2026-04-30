@@ -342,6 +342,9 @@
     "Space-gray": {
       "url": "https://turtnip.github.io/css/theme-options/space-gray.css?sha=fe5797a1fc63f6e1929ffc4bdec30312"
     },
+    "Space-nova": {
+      "url": "https://turtnip.github.io/css/theme-options/space-nova.css?sha=e3e1b16080676b1f13e02a0b11bbf516"
+    },
     "Time": {
       "url": "https://turtnip.github.io/css/community-theme-options/time.css?sha=8b1b27e8c0a649951fbf26ec6bc18268"
     },
@@ -960,6 +963,9 @@
     },
     "Space-gray": {
       "url": "https://turtnip.github.io/css/theme-options/space-gray.css?sha=fe5797a1fc63f6e1929ffc4bdec30312"
+    },
+    "Space-nova": {
+      "url": "https://turtnip.github.io/css/theme-options/space-nova.css?sha=e3e1b16080676b1f13e02a0b11bbf516"
     }
   }
 }
