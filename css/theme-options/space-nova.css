@@ -52,6 +52,6 @@
 /* Links tooltip chips: hover shifts background only (text stays label color) */
 [class*="SeriesDetailsLinks-link-"]:hover [class*="SeriesDetailsLinks-linkLabel-"],
 [class*="SeriesDetailsLinks-link-"]:focus-visible [class*="SeriesDetailsLinks-linkLabel-"] {
-  background-color: var(--button-color-hover);
-  border-color: var(--button-color-hover);
+  background-color: var(--link-color-hover);
+  border-color: var(--link-color-hover);
 }
