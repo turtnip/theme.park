@@ -40,9 +40,9 @@
 
 /* Sonarr v4 hero row: app forces transparent bg; restore fill + accent border (border was tracking currentColor + dark text) */
 [class*="SeriesDetails-detailsLabel-"] {
-  background-color: rgb(var(--accent-color)) !important;
+  background-color: rgb(20, 6, 45) !important;
   border-color: rgb(var(--accent-color)) !important;
-  color: #0a0614 !important;
+  color: #c806a5 !important;
 }
 
 [class*="SeriesDetails-detailsLabel-"] [class*="SeriesDetails-path-"] {
